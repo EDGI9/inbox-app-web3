@@ -2,8 +2,9 @@
   "name": "inbox-app",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
-  "scripts": {},
+  "scripts": {
+    "compile" : "node compile.js"
+  },
   "dependencies": {
     "solc": "^0.4.17"
   }
