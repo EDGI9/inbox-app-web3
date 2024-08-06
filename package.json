@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-  },
-  "devDependencies": {
+    "solc": "^0.4.17"
   }
 }
