@@ -3,9 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "compile" : "node compile.js"
+    "compile": "node compile.js",
+    "test": "mocha"
   },
   "dependencies": {
-    "solc": "^0.4.17"
+    "ganache": "^7.9.2",
+    "mocha": "^10.7.0",
+    "solc": "^0.4.17",
+    "web3": "^4.11.1"
   }
 }
