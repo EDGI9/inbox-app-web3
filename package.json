@@ -7,9 +7,13 @@
     "test": "mocha"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
     "ganache": "^7.9.2",
     "mocha": "^10.7.0",
     "solc": "^0.4.17",
     "web3": "^4.11.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
